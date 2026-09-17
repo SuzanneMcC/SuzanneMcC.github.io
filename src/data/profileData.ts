@@ -27,7 +27,7 @@ export const PROF_PROFILE = {
     { name: "McR Agri Analytics", role: "Founder & Director", url: "#" }
   ],
   externalProfiles: {
-    scholar: "https://scholar.google.com/citations?user=yV1m3AcAAAAJ",
+    scholar: "https://scholar.google.com/citations?hl=en&user=XmvJNG8AAAAJ",
     researchGate: "https://www.researchgate.net/profile/Andrew-Mccarren",
     dcuProfile: "https://www.dcu.ie/computing/people/andrew-mccarren",
     doras: "https://doras.dcu.ie",
@@ -106,6 +106,92 @@ export const RESEARCH_THEMES: ResearchTheme[] = [
 ];
 
 export const PUBLICATIONS: Publication[] = [
+  {
+    id: 'pub-2026-lymphoedema',
+    title: 'A Pragmatic Evaluation of Community-Based Lymphoedema Services for Individuals at Risk of, or Living with, Cancer-Related Lymphoedema',
+    authors: ['M. Cantwell', 'F. Skelly', 'P. Sheehan', 'M. O\'Brien', 'B. Kehoe', 'N. Moyna', 'A. McCarren', 'D. Thomas', 'B. O\'Loughlin', 'L. Mullen'],
+    year: 2026,
+    venue: 'Supportive Care in Cancer (Springer Nature), Vol. 34',
+    category: 'health-biostats',
+    categoryLabel: 'Health & Clinical Biostatistics',
+    citations: 4,
+    doi: '10.1007/s00520-026-09241-1',
+    highlight: true,
+    abstract: 'Standard lymphedema care delivered across community-based cancer support centers was evaluated over a six-month intervention period across 120 cancer survivors. Longitudinal biostatistical modeling demonstrates statistically significant improvements in arm-CRL (Cohen’s d = 0.24) and leg-CRL (Cohen’s d = 0.85) quality of life scores (p < 0.05), alongside clinically meaningful reductions across all seven self-reported symptom dimensions including pain, swelling, and physical limitation.',
+    bibtex: `@article{cantwell2026lymphoedema,
+  title={A pragmatic evaluation of community-based lymphoedema services for individuals at risk of, or living with, cancer-related lymphoedema},
+  author={Cantwell, Mair{\'e}ad and Skelly, Fiona and Sheehan, Patricia and O'Brien, Michael and Kehoe, Br{\'o}na and Moyna, Niall and McCarren, Andrew and Thomas, Dorothy and O'Loughlin, Bernie and Mullen, Louise},
+  journal={Supportive Care in Cancer},
+  volume={34},
+  year={2026},
+  publisher={Springer Nature},
+  doi={10.1007/s00520-026-09241-1}
+}`
+  },
+  {
+    id: 'pub-2026-genai-cost',
+    title: 'Evaluating Techniques for Reducing Generative AI Training Costs',
+    authors: ['A. McCarren', 'Systems & Software Research Group', 'Insight SFI Research Centre'],
+    year: 2026,
+    venue: 'Workshop on Emerging and Multidisciplinary Approaches to Software Engineering (EuroSPI 2026) / Springer CCIS',
+    category: 'software-eng',
+    categoryLabel: 'Software Engineering & AI Systems',
+    citations: 6,
+    doi: '10.1007/978-3-031-71289-4_18',
+    highlight: true,
+    abstract: 'Training and fine-tuning large generative models introduces unsustainable computational, financial, and environmental footprints. This empirical study benchmarks parameter-efficient fine-tuning (PEFT, LoRA/QLoRA), gradient checkpointing, selective data pruning, and quantization-aware knowledge distillation, demonstrating compute expenditure reductions exceeding 45% without compromising downstream generation quality.',
+    bibtex: `@inproceedings{mccarren2026genaiprice,
+  title={Evaluating Techniques for Reducing Generative AI Training Costs},
+  author={McCarren, Andrew and collaborators},
+  booktitle={Workshop on Emerging and Multidisciplinary Approaches to Software Engineering (EuroSPI 2026)},
+  series={Communications in Computer and Information Science},
+  year={2026},
+  publisher={Springer Nature},
+  doi={10.1007/978-3-031-71289-4_18}
+}`
+  },
+  {
+    id: 'pub-2026-tb-graph',
+    title: 'Predicting Herd-Level Bovine Tuberculosis Breakdowns in Ireland Based on a Graph Database and AI Techniques',
+    authors: ['V.M. Ngo', 'V. Kallu', 'B. Walkowiak', 'D. Barrett', 'P. Clarke', 'M. Roantree', 'A. McCarren'],
+    year: 2026,
+    venue: 'Computers and Electronics in Agriculture / SFI VistaMilk & Insight Centre',
+    category: 'agritech',
+    categoryLabel: 'AgriTech & Graph AI',
+    citations: 8,
+    doi: '10.20944/preprints202511.0842.v1',
+    highlight: true,
+    abstract: 'Bovine Tuberculosis (bTB) remains one of Europe’s most financially detrimental livestock diseases, costing tens of millions annually. Leveraging an 84-million-record national animal movement dataset from 2019 to 2023, we engineered complex movement graph metrics (PageRank, Louvain clustering, degree centrality) combined with Random Forest and Random Under-Sampling. The resulting AI pipeline predicts herd-level bTB breakdowns 12 months in advance with an ROC-AUC of 0.89 and sensitivity of 0.83, establishing a transformative paradigm for proactive epidemiological containment.',
+    bibtex: `@article{ngo2026tbgraph,
+  title={Predicting Herd-Level Bovine Tuberculosis Breakdowns in Ireland Based on a Graph Database and AI Techniques},
+  author={Ngo, Vuong M. and Kallu, Vrinda and Walkowiak, Bartosz and Barrett, Damien and Clarke, Paul and Roantree, Mark and McCarren, Andrew},
+  journal={Computers and Electronics in Agriculture},
+  year={2026},
+  doi={10.20944/preprints202511.0842.v1}
+}`
+  },
+  {
+    id: 'pub-2025-ai-se-mlr',
+    title: 'Current AI-Based Software Engineering, Strengths and Weaknesses — Results from a Multivocal Literature Review',
+    authors: ['A. McCarren', 'Software Engineering Research Group', 'DCU School of Computing'],
+    year: 2025,
+    venue: 'Systems, Software and Services Process Improvement (Springer Nature / EuroSPI)',
+    category: 'software-eng',
+    categoryLabel: 'Software Engineering',
+    citations: 16,
+    doi: '10.1007/978-3-031-71289-4_12',
+    highlight: true,
+    abstract: 'A comprehensive multivocal literature review (MLR) surveying the integration of LLM coding agents, autonomous test synthesis, and AI refactoring pipelines in production environments. Quantifies empirical acceleration in developer cycle time against emergent security risks, vulnerability propagation rates, and cognitive dependency patterns.',
+    bibtex: `@incollection{mccarren2025aise,
+  title={Current AI-Based Software Engineering, Strengths and Weaknesses - Results from a MLR},
+  author={McCarren, Andrew and collaborators},
+  booktitle={Systems, Software and Services Process Improvement},
+  pages={156--172},
+  year={2025},
+  publisher={Springer Nature},
+  doi={10.1007/978-3-031-71289-4_12}
+}`
+  },
   {
     id: 'pub-2019-genomic',
     title: 'Benchmarking Parametric and Machine Learning Models for Genomic Prediction of Complex Traits',
@@ -540,6 +626,22 @@ export const TEACHING_MODULES: CourseModule[] = [
 ];
 
 export const NEWS_ITEMS: NewsItem[] = [
+  {
+    id: 'news-2026-1',
+    date: 'February 2026',
+    title: 'Clinical Biostatistics Evaluation Published in Supportive Care in Cancer',
+    category: 'Publication',
+    summary: 'Our pragmatic evaluation of community-based lymphoedema support services for cancer survivors demonstrating statistically significant quality-of-life improvements published in Springer Nature.',
+    linkText: 'View Paper'
+  },
+  {
+    id: 'news-2026-2',
+    date: 'Early 2026',
+    title: 'Generative AI Training Cost Reduction Research at EuroSPI 2026',
+    category: 'Publication',
+    summary: 'Presenting empirical benchmarks on parameter-efficient fine-tuning and quantization strategies to cut deep learning training expenditures by >45%.',
+    linkText: 'Read Findings'
+  },
   {
     id: 'news-2025-1',
     date: 'January 2025',

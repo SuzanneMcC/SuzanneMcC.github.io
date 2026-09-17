@@ -38,7 +38,7 @@ export const PublicationsExplorer: React.FC = () => {
   ];
 
   // Years list
-  const years = ['all', '2025', '2024', '2023', '2022', '2021', 'Earlier'];
+  const years = ['all', '2026', '2025', '2024', '2023', '2022', 'Earlier'];
 
   // Filtered and sorted publications
   const filteredPubs = useMemo(() => {
@@ -56,7 +56,7 @@ export const PublicationsExplorer: React.FC = () => {
       // Year
       let matchesYear = true;
       if (selectedYear === 'Earlier') {
-        matchesYear = pub.year < 2021;
+        matchesYear = pub.year < 2022;
       } else if (selectedYear !== 'all') {
         matchesYear = pub.year === parseInt(selectedYear, 10);
       }
