@@ -29,6 +29,7 @@ export const PublicationsExplorer: React.FC = () => {
   const categories = [
     { id: 'all', label: 'All Domains' },
     { id: 'agritech', label: 'AgriTech & Environment' },
+    { id: 'ml-timeseries', label: 'Time Series & ML' },
     { id: 'software-eng', label: 'Software Engineering' },
     { id: 'nlp-trust', label: 'Trustworthy AI & NLP' },
     { id: 'sports-performance', label: 'Sports Analytics' },

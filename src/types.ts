@@ -4,7 +4,7 @@ export interface Publication {
   authors: string[];
   year: number;
   venue: string;
-  category: 'agritech' | 'ml-ai' | 'software-eng' | 'sports-performance' | 'health-biostats' | 'nlp-trust' | 'edtech';
+  category: 'agritech' | 'ml-ai' | 'ml-timeseries' | 'software-eng' | 'sports-performance' | 'health-biostats' | 'nlp-trust' | 'edtech';
   categoryLabel: string;
   citations?: number;
   doi?: string;
