@@ -12,7 +12,7 @@ export const PROF_PROFILE = {
   alternateEmail: "andrewlmccarren@gmail.com",
   phone: "+353 (0)1 700 8900",
   bioHeadline: "Head of School of Computing at DCU, SFI Funded Investigator in Applied Machine Learning, AgriTech, and Time Series Analytics.",
-  bioSummary: "Professor Andrew McCarren is the Head of the School of Computing at Dublin City University (DCU) and a leading academic researcher in data analytics and artificial intelligence. With over two decades of applied engineering and data science experience across electronic engineering, agriculture, and pharmaceuticals, his research bridges foundational machine learning with transformative real-world challenges in smart agriculture, human performance, software architectures, and healthcare biostatistics.",
+  bioSummary: "Andrew McCarren is currently a Professor and Head of School in the School of Computing in the faculty of Engineering and Computing. Andrew is also a Principal Investigator in the Rinn AI Centre. His primary research interests are in the application of Data Analytics and Data Mining techniques in Fintech, Agriculture, Food, ED Tech, Health and Human Performance, and is currently the PI on a number of SFI and EI awarded projects. Andrew has extensive industry experience during his 20 years in the Agri, Electronic Engineering and Pharmaceutical industries, and continues to consult with many industry partners.",
   stats: [
     { label: "Publications", value: "75+", note: "Peer-reviewed papers & book chapters" },
     { label: "Citations", value: "1,350+", note: "Google Scholar citation impact" },

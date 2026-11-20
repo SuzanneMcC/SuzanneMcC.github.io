@@ -52,9 +52,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenInquiry }) => {
 
             {/* High-level summary paragraph */}
             <p className="text-base sm:text-lg text-slate-700 max-w-3xl leading-relaxed mb-6 font-normal">
-              Funded Investigator at the <strong className="text-slate-900 font-semibold">Insight SFI Centre for Data Analytics</strong>, 
-              the <strong className="text-slate-900 font-semibold">SFI VistaMilk Centre</strong>, and doctoral supervisor with the <strong className="text-slate-900 font-semibold">SFI CRT in AI</strong>. 
-              Specializing in deep learning for time series, precision AgriTech, sports analytics, and high-performance software engineering with 20+ years of industrial leadership.
+              Andrew McCarren is currently a Professor and Head of School in the School of Computing in the faculty of Engineering and Computing. Andrew is also a Principal Investigator in the Rinn AI Centre. His primary research interests are in the application of Data Analytics and Data Mining techniques in Fintech, Agriculture, Food, ED Tech, Health and Human Performance, and is currently the PI on a number of SFI and EI awarded projects. Andrew has extensive industry experience during his 20 years in the Agri, Electronic Engineering and Pharmaceutical industries, and continues to consult with many industry partners.
             </p>
 
             {/* Quick Affiliations Badges */}
